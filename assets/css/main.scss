@@ -72,6 +72,10 @@ $extraBold: MavenPro-ExtraBold;
   height: $prop;
   object-fit: cover;
 }
+html{
+  scroll-behavior: smooth;
+
+}
 body {
   margin: 0px;
   background-color: #eee !important;
@@ -4900,6 +4904,7 @@ body {
     .create_store_form {
       background-color: $siteColor3;
       padding: 100px 0px;
+      margin-bottom: -100px;
       .container_self {
         @include flex-between(flex);
         .left {

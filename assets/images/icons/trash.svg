@@ -1,0 +1,17 @@
+<svg id="trash" xmlns="http://www.w3.org/2000/svg" width="14.379" height="14.648" viewBox="0 0 14.379 14.648">
+  <g id="Group_36" data-name="Group 36" transform="translate(0)">
+    <g id="Group_35" data-name="Group 35">
+      <path id="Path_22" data-name="Path 22" d="M35.06,2.614H31.792V.654A.653.653,0,0,0,31.138,0H25.909a.653.653,0,0,0-.654.654V2.614H21.988a.654.654,0,0,0,0,1.307h.654v8.765A1.963,1.963,0,0,0,24.6,14.648h7.843a1.963,1.963,0,0,0,1.961-1.961V3.922h.654a.654.654,0,0,0,0-1.307Zm-8.5-1.307h3.922V2.614H26.563ZM33.1,12.687a.654.654,0,0,1-.654.654H24.6a.654.654,0,0,1-.654-.654V3.922H33.1v8.765Z" transform="translate(-21.334)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_38" data-name="Group 38" transform="translate(4.575 5.229)">
+    <g id="Group_37" data-name="Group 37" transform="translate(0 0)">
+      <path id="Path_23" data-name="Path 23" d="M171.321,170.667a.636.636,0,0,0-.654.617v5.557a.655.655,0,0,0,1.307,0v-5.557A.636.636,0,0,0,171.321,170.667Z" transform="translate(-170.667 -170.667)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_40" data-name="Group 40" transform="translate(8.497 5.229)">
+    <g id="Group_39" data-name="Group 39" transform="translate(0 0)">
+      <path id="Path_24" data-name="Path 24" d="M299.321,170.667a.636.636,0,0,0-.654.617v5.557a.655.655,0,0,0,1.307,0v-5.557A.636.636,0,0,0,299.321,170.667Z" transform="translate(-298.667 -170.667)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

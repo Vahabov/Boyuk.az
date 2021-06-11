@@ -70,7 +70,7 @@ $extraBold: MavenPro-ExtraBold;
       }
     }
     //*************************
-    
+
     .container_self {
       max-width: 991px;
     }
@@ -163,10 +163,10 @@ $extraBold: MavenPro-ExtraBold;
         }
       }
       .profile_block {
-        .profile_navbar{
+        .profile_navbar {
           .scrolled_navbar {
-            .link{
-              &:not(:nth-child(3n + 3)){
+            .link {
+              &:not(:nth-child(3n + 3)) {
                 margin-right: 12px;
               }
             }
@@ -199,9 +199,9 @@ $extraBold: MavenPro-ExtraBold;
           }
         }
         .cards {
-          .card{
+          .card {
             width: 31.5%;
-            &:not(:nth-child(3n + 3)){
+            &:not(:nth-child(3n + 3)) {
               margin-right: 27px;
             }
           }
@@ -308,7 +308,7 @@ $extraBold: MavenPro-ExtraBold;
       }
     }
     .hideHeader {
-    transform: translateY(-150px);
+      transform: translateY(-150px);
     }
     .miniHeader {
       transform: translateY(-70px);
@@ -548,9 +548,9 @@ $extraBold: MavenPro-ExtraBold;
               &:not(:last-child) {
                 margin-right: 15px;
               }
-&:not(:nth-last-child(-n + 3)){
-  margin-bottom: 0px;
-}
+              &:not(:nth-last-child(-n + 3)) {
+                margin-bottom: 0px;
+              }
               .content {
                 .title {
                   span {
@@ -1063,7 +1063,7 @@ $extraBold: MavenPro-ExtraBold;
           .left_column {
             form {
               .items {
-                .full_item{
+                .full_item {
                   width: 100% !important;
                 }
                 .item {
@@ -1131,6 +1131,90 @@ $extraBold: MavenPro-ExtraBold;
               .right {
                 width: 100%;
               }
+            }
+          }
+        }
+      }
+      .create_store_head {
+        padding: 50px 0px;
+        .container_self {
+          flex-direction: column-reverse;
+          .left {
+            width: 100%;
+            .title {
+              font-size: 30px;
+            }
+            .desc {
+              font-size: 18px;
+            }
+            .go_create_store {
+              height: 40px;
+              width: 100%;
+            }
+          }
+          .right {
+            width: 100%;
+            margin-bottom: 50px;
+          }
+        }
+      }
+      .advantage_store {
+        padding: 50px 0px;
+        .container_self {
+          .title{
+            font-size: 25px;
+            margin-bottom: 40px;
+          }
+          .items {
+            flex-direction: column;
+            .item {
+              width: 100%;
+              &:not(:nth-child(2n + 2)) {
+                margin-bottom: 0px;
+              }
+              &:not(:last-child) {
+                margin-bottom: 35px;
+              }
+              .icn{
+                width: 60px;
+                height: 60px;
+              }
+              .content {
+                width: 70%;
+                .title_item{
+                  font-size: 20px;
+                  margin-bottom: 7px;
+                }
+                .desc{
+                  font-size: 14px;
+                  line-height: 19px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .create_store_form {
+        padding: 50px 0px;
+
+        .container_self {
+          flex-direction: column;
+          .left{
+            width: 100%;
+            margin-bottom: 30px;
+            .title{
+              font-size: 30px;
+              text-align: center;
+            }
+          }
+          .form{
+            width: 100%;
+            .title_form{
+              font-size: 18px;
+              text-align: center;
+            }
+            .btn_submit{
+              width: 100%;
             }
           }
         }

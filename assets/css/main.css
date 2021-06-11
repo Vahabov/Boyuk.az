@@ -6873,6 +6873,291 @@ body main .about_page_section .about_main p:not(:last-child) {
   margin-bottom: 30px;
 }
 
+body main .create_store_head {
+  background-color: #7d62da;
+  padding: 100px 0px;
+}
+
+body main .create_store_head .container_self {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .create_store_head .container_self .left {
+  width: 45%;
+}
+
+body main .create_store_head .container_self .left .title {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+body main .create_store_head .container_self .left .desc {
+  color: #fff;
+  font-size: 25px;
+}
+
+body main .create_store_head .container_self .left .go_create_store {
+  padding: 0px 30px;
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  color: #7d62da;
+}
+
+body main .create_store_head .container_self .left .go_create_store:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+body main .create_store_head .container_self .right {
+  width: 52%;
+}
+
+body main .create_store_head .container_self .right img {
+  width: 100%;
+}
+
+body main .advantage_store {
+  padding: 100px 0px;
+}
+
+body main .advantage_store .container_self .title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+body main .advantage_store .container_self .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .advantage_store .container_self .items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 49%;
+}
+
+body main .advantage_store .container_self .items .item:not(:nth-child(2n + 2)) {
+  margin-bottom: 35px;
+}
+
+body main .advantage_store .container_self .items .item:hover .icn {
+  border-color: #f5692c;
+  background-color: #fff;
+}
+
+body main .advantage_store .container_self .items .item .icn {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #dad8d8;
+  border: 1px solid #dad8d8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+}
+
+body main .advantage_store .container_self .items .item .icn img {
+  width: 55%;
+  height: 55%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body main .advantage_store .container_self .items .item .content {
+  width: 82%;
+}
+
+body main .advantage_store .container_self .items .item .content .title_item {
+  color: #434343;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+body main .advantage_store .container_self .items .item .content .desc {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+body main .create_store_form {
+  background-color: #7d62da;
+  padding: 100px 0px;
+}
+
+body main .create_store_form .container_self {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .create_store_form .container_self .left {
+  width: 50%;
+}
+
+body main .create_store_form .container_self .left .title {
+  color: #fff;
+  font-size: 48px;
+}
+
+body main .create_store_form .container_self .form {
+  width: 50%;
+}
+
+body main .create_store_form .container_self .form .title_form {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+body main .create_store_form .container_self .form .input label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+  color: #fff;
+}
+
+body main .create_store_form .container_self .form .input input {
+  border-bottom: 1px solid RGBA(255, 255, 255, 0.5);
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+  color: #fff;
+}
+
+body main .create_store_form .container_self .form .input input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.473);
+}
+
+body main .create_store_form .container_self .form .input input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.473);
+}
+
+body main .create_store_form .container_self .form .input input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.473);
+}
+
+body main .create_store_form .container_self .form .input input::placeholder {
+  color: rgba(255, 255, 255, 0.473);
+}
+
+body main .create_store_form .container_self .form .message {
+  width: 100%;
+}
+
+body main .create_store_form .container_self .form .message label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+  color: #fff;
+}
+
+body main .create_store_form .container_self .form .message textarea {
+  border: 1px solid RGBA(255, 255, 255, 0.5);
+  background: RGBA(255, 255, 255, 0.14);
+  resize: none;
+  height: 91.5px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 7px;
+  padding: 10px 12px;
+  color: #fff;
+}
+
+body main .create_store_form .container_self .form .message textarea::-webkit-input-placeholder {
+  color: RGBA(255, 255, 255, 0.4);
+}
+
+body main .create_store_form .container_self .form .message textarea:-ms-input-placeholder {
+  color: RGBA(255, 255, 255, 0.4);
+}
+
+body main .create_store_form .container_self .form .message textarea::-ms-input-placeholder {
+  color: RGBA(255, 255, 255, 0.4);
+}
+
+body main .create_store_form .container_self .form .message textarea::placeholder {
+  color: RGBA(255, 255, 255, 0.4);
+}
+
+body main .create_store_form .container_self .form .btn_submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 190px;
+  height: 41px;
+  background-color: #f5692c;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
 body footer {
   background-color: #434343;
   padding: 40px 0px;

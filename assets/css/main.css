@@ -7163,6 +7163,117 @@ body main .create_store_form .container_self .form .btn_submit {
   margin-top: 20px;
 }
 
+body main .auth_section {
+  margin: 0px auto;
+  max-width: 50%;
+}
+
+body main .auth_section form .title {
+  font-size: 35px;
+  font-family: MavenPro-SemiBold;
+}
+
+body main .auth_section form .description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+body main .auth_section form .input {
+  width: 100%;
+}
+
+body main .auth_section form .input label {
+  font-size: 12px;
+  font-family: MavenPro-Medium;
+  margin-bottom: 10px;
+  display: block;
+}
+
+body main .auth_section form .input input {
+  border-bottom: 1px solid RGBA(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+body main .auth_section form .remember_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .auth_section form .remember_div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .auth_section form .remember_div div label {
+  margin-left: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body main .auth_section form .remember_div div input {
+  width: 18px;
+  height: 18px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+body main .auth_section form .remember_div a {
+  color: #0089ff;
+  font-size: 16px;
+  font-family: MavenPro-SemiBold;
+}
+
+body main .auth_section form .sign_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .auth_section form .sign_buttons .red_bg {
+  background-color: #f5692c !important;
+}
+
+body main .auth_section form .sign_buttons .btn_foot {
+  width: 48%;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #434343;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 body footer {
   background-color: #434343;
   padding: 40px 0px;

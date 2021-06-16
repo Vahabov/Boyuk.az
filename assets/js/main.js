@@ -160,9 +160,7 @@ $(function () {
   $(".slick-arrow, .slick-dots").on("click", function (e) {
     e.preventDefault();
   });
-  $(".like").on("click", function (e) {
-    e.stopPropagation();
-  });
+  
   function readURL(input) {
     if (input.files && input.files[0]) {
       var reader = new FileReader();

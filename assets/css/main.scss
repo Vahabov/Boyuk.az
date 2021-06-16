@@ -72,9 +72,8 @@ $extraBold: MavenPro-ExtraBold;
   height: $prop;
   object-fit: cover;
 }
-html{
+html {
   scroll-behavior: smooth;
-
 }
 body {
   margin: 0px;
@@ -4915,12 +4914,12 @@ body {
           }
         }
         .form {
-           width: 50%;
-           .title_form{
-             font-size: 20px;
-             color: #fff;
-             margin-bottom: 40px;
-           }
+          width: 50%;
+          .title_form {
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 40px;
+          }
           .input {
             label {
               font-size: 14px;
@@ -4934,7 +4933,7 @@ body {
               font-size: 16px;
               width: 100%;
               color: #fff;
-              &::placeholder{
+              &::placeholder {
                 color: rgba(255, 255, 255, 0.473);
               }
             }
@@ -4972,6 +4971,70 @@ body {
             border-radius: $radius7;
             cursor: pointer;
             margin-top: 20px;
+          }
+        }
+      }
+    }
+    .auth_section {
+      margin: 0px auto;
+      max-width: 50%;
+      form {
+        .title {
+          font-size: 35px;
+          font-family: $semiBold;
+        }
+        .description {
+          font-size: 16px;
+          margin-top: 10px;
+        }
+        .input {
+          width: 100%;
+          label {
+            font-size: 12px;
+            font-family: $medium;
+            margin-bottom: 10px;
+            display: block;
+          }
+          input {
+            border-bottom: 1px solid RGBA(0, 0, 0, 0.5);
+            padding-bottom: 10px;
+            font-size: 16px;
+            width: 100%;
+          }
+        }
+        .remember_div {
+          @include flex-between(flex);
+          div {
+            @include flex-between(flex);
+            label {
+              margin-left: 10px;
+              user-select: none;
+            }
+            input {
+              width: 18px;
+              height: 18px;
+              margin: 0px;
+              border-radius: 5px;
+            }
+          }
+          a {
+            color: #0089ff;
+            font-size: 16px;
+            font-family: $semiBold;
+          }
+        }
+        .sign_buttons {
+          @include flex-between(flex);
+          .red_bg {
+            background-color: $siteColor2 !important;
+          }
+          .btn_foot {
+            width: 48%;
+            height: 40px;
+            border-radius: $radius7;
+            background-color: $siteColor;
+            color: #fff;
+            @include flex-center(flex)
           }
         }
       }

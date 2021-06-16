@@ -1057,6 +1057,9 @@
   body main .create_store_form .container_self .form .btn_submit {
     width: 100%;
   }
+  body main .auth_section {
+    max-width: 100%;
+  }
   body footer .container_self {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

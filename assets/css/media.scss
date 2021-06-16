@@ -1161,7 +1161,7 @@ $extraBold: MavenPro-ExtraBold;
       .advantage_store {
         padding: 50px 0px;
         .container_self {
-          .title{
+          .title {
             font-size: 25px;
             margin-bottom: 40px;
           }
@@ -1175,17 +1175,17 @@ $extraBold: MavenPro-ExtraBold;
               &:not(:last-child) {
                 margin-bottom: 35px;
               }
-              .icn{
+              .icn {
                 width: 60px;
                 height: 60px;
               }
               .content {
                 width: 70%;
-                .title_item{
+                .title_item {
                   font-size: 20px;
                   margin-bottom: 7px;
                 }
-                .desc{
+                .desc {
                   font-size: 14px;
                   line-height: 19px;
                 }
@@ -1199,25 +1199,28 @@ $extraBold: MavenPro-ExtraBold;
 
         .container_self {
           flex-direction: column;
-          .left{
+          .left {
             width: 100%;
             margin-bottom: 30px;
-            .title{
+            .title {
               font-size: 30px;
               text-align: center;
             }
           }
-          .form{
+          .form {
             width: 100%;
-            .title_form{
+            .title_form {
               font-size: 18px;
               text-align: center;
             }
-            .btn_submit{
+            .btn_submit {
               width: 100%;
             }
           }
         }
+      }
+      .auth_section {
+        max-width: 100%;
       }
     }
     footer {

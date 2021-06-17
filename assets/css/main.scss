@@ -1845,8 +1845,18 @@ body {
   .product_payment_modal {
     .check_box {
       label {
-        font-size: 18px;
+        font-size: 14px;
         font-family: $medium;
+        &::after{
+          width: 10px;
+          height: 10px;
+          top: 10px;
+          left: 7px;
+        }
+        &::before{
+          width: 24px;
+          height: 24px;
+        }
       }
     }
     .title {

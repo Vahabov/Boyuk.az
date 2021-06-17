@@ -2612,8 +2612,20 @@ body .action_modal form .foot .btn_submit {
 }
 
 body .product_payment_modal .check_box label {
-  font-size: 18px;
+  font-size: 14px;
   font-family: MavenPro-Medium;
+}
+
+body .product_payment_modal .check_box label::after {
+  width: 10px;
+  height: 10px;
+  top: 10px;
+  left: 7px;
+}
+
+body .product_payment_modal .check_box label::before {
+  width: 24px;
+  height: 24px;
 }
 
 body .product_payment_modal .title {

@@ -4299,6 +4299,10 @@ body main .product_in .product_info .left {
   width: 70%;
 }
 
+body main .product_in .product_info .left .form-label {
+  margin: 30px 0px 0px 0px !important;
+}
+
 body main .product_in .product_info .left .head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4359,7 +4363,7 @@ body main .product_in .product_info .left .buttons {
           justify-content: space-between;
 }
 
-body main .product_in .product_info .left .buttons button {
+body main .product_in .product_info .left .buttons .btn_pr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4377,27 +4381,27 @@ body main .product_in .product_info .left .buttons button {
   width: 23%;
 }
 
-body main .product_in .product_info .left .buttons button img {
+body main .product_in .product_info .left .buttons .btn_pr img {
   width: 32.3px;
   height: 36.75px;
   margin-right: 10px;
 }
 
-body main .product_in .product_info .left .buttons button p {
+body main .product_in .product_info .left .buttons .btn_pr p {
   color: #fff;
   font-size: 16px;
 }
 
-body main .product_in .product_info .left .buttons button p svg {
+body main .product_in .product_info .left .buttons .btn_pr p svg {
   width: 13px;
   height: 10px;
 }
 
-body main .product_in .product_info .left .buttons button p svg path {
+body main .product_in .product_info .left .buttons .btn_pr p svg path {
   fill: #fff;
 }
 
-body main .product_in .product_info .left .buttons button span {
+body main .product_in .product_info .left .buttons .btn_pr span {
   color: #fff;
   font-size: 16px;
   display: block;
@@ -4413,7 +4417,7 @@ body main .product_in .product_info .left .mobile_buttons {
           justify-content: space-between;
 }
 
-body main .product_in .product_info .left .mobile_buttons button {
+body main .product_in .product_info .left .mobile_buttons .btn_pr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4431,16 +4435,16 @@ body main .product_in .product_info .left .mobile_buttons button {
   width: 22%;
 }
 
-body main .product_in .product_info .left .mobile_buttons button:not(:last-child) {
+body main .product_in .product_info .left .mobile_buttons .btn_pr:not(:last-child) {
   margin-right: 5px;
 }
 
-body main .product_in .product_info .left .mobile_buttons button img {
+body main .product_in .product_info .left .mobile_buttons .btn_pr img {
   width: 20px;
   height: 25px;
 }
 
-body main .product_in .product_info .left .mobile_buttons button p {
+body main .product_in .product_info .left .mobile_buttons .btn_pr p {
   color: #fff;
   font-size: 14px;
   font-family: MavenPro-Regular;

@@ -3032,6 +3032,9 @@ body {
         align-items: flex-start;
         .left {
           width: 70%;
+          .form-label{
+            margin: 30px 0px 0px 0px !important;
+          }
           .head {
             display: flex;
             align-items: flex-end;
@@ -3062,7 +3065,7 @@ body {
           }
           .buttons {
             @include flex-between(flex);
-            button {
+            .btn_pr {
               @include flex-center(flex);
               border-radius: $radius7;
               background-color: $siteColor;
@@ -3095,7 +3098,7 @@ body {
           }
           .mobile_buttons {
             @include flex-between(none);
-            button {
+            .btn_pr {
               @include flex-center(flex);
               border-radius: $radius7;
               background-color: #434343d7;

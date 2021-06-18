@@ -952,10 +952,25 @@ $extraBold: MavenPro-ExtraBold;
               }
             }
             .buttons {
-              display: none;
-            }
-            .mobile_buttons {
-              display: flex;
+              .btn_pr {
+                border-radius: $radius7;
+                background-color: #434343d7;
+                height: 45px;
+                padding: 0px 10px;
+                text-align: left;
+                width: 22%;
+                &:not(:last-child) {
+                  margin-right: 5px;
+                }
+                img {
+                  width: 20px;
+                  height: 25px;
+                  margin: 0px;
+                }
+                p {
+                  display: none;
+                }
+              }
             }
             .info {
               max-width: 100%;

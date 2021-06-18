@@ -2,7 +2,10 @@ $(function () {
   if ($(".loading_overlay")[0]) {
     $(".loading_overlay").fadeOut("fast");
   }
-  $("#profile_inputs .item input, textarea").attr("disabled", true);
+  $("#profile_inputs .item input,#profile_inputs .item textarea").attr(
+    "disabled",
+    true
+  );
 
   if ($(window).width() < 991) {
     $("#lightgallery").addClass("slider");
@@ -160,7 +163,7 @@ $(function () {
   $(".slick-arrow, .slick-dots").on("click", function (e) {
     e.preventDefault();
   });
-  
+
   function readURL(input) {
     if (input.files && input.files[0]) {
       var reader = new FileReader();

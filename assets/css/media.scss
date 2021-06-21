@@ -207,11 +207,20 @@ $extraBold: MavenPro-ExtraBold;
           }
         }
       }
+      .chat_section {
+        .sidebar_chat {
+          width: 360px;
+        }
+        .chat_block {
+          width: 61%;
+        }
+      }
     }
   }
 }
 
 @media screen and (max-width: 991px) {
+
   body {
     //components
     .product_block {
@@ -667,6 +676,63 @@ $extraBold: MavenPro-ExtraBold;
               width: 100%;
             }
           }
+        }
+      }
+      .with_messages {
+        .sidebar_chat {
+          display: none;
+        }
+        .chat_block {
+          width: 100%;
+          height: auto;
+          padding: 15px;
+          .head {
+            flex-direction: column;
+            align-items: flex-start;
+            .service_info {
+              width: 100%;
+              margin-bottom: 20px;
+              .avatar {
+                width: 45px;
+                height: 45px;
+              }
+            }
+            .product_info {
+              flex-direction: row;
+              .img {
+                width: 45px;
+                height: 45px;
+                margin-left: 0px;
+                margin-right: 12px;
+              }
+              .info {
+                text-align: left;
+              }
+              width: 100%;
+            }
+          }
+          .center {
+            .messages {
+              .chat_scroll {
+                .message {
+                  max-width: 85%;
+                }
+              }
+            }
+          }
+          .foot {
+            form {
+              padding: 15px;
+            }
+          }
+        }
+      }
+      .with_chats {
+        .sidebar_chat {
+          width: 100%;
+        }
+        .chat_block {
+          display: none;
         }
       }
     }

@@ -148,6 +148,12 @@
   body main .profile_block .cards .card:not(:nth-child(3n + 3)) {
     margin-right: 27px;
   }
+  body main .chat_section .sidebar_chat {
+    width: 360px;
+  }
+  body main .chat_section .chat_block {
+    width: 61%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -586,6 +592,59 @@
   }
   body main .contact_page_section .main_tab_forms .contact_main .map {
     width: 100%;
+  }
+  body main .with_messages .sidebar_chat {
+    display: none;
+  }
+  body main .with_messages .chat_block {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  body main .with_messages .chat_block .head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  body main .with_messages .chat_block .head .service_info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  body main .with_messages .chat_block .head .service_info .avatar {
+    width: 45px;
+    height: 45px;
+  }
+  body main .with_messages .chat_block .head .product_info {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+  body main .with_messages .chat_block .head .product_info .img {
+    width: 45px;
+    height: 45px;
+    margin-left: 0px;
+    margin-right: 12px;
+  }
+  body main .with_messages .chat_block .head .product_info .info {
+    text-align: left;
+  }
+  body main .with_messages .chat_block .center .messages .chat_scroll .message {
+    max-width: 85%;
+  }
+  body main .with_messages .chat_block .foot form {
+    padding: 15px;
+  }
+  body main .with_chats .sidebar_chat {
+    width: 100%;
+  }
+  body main .with_chats .chat_block {
+    display: none;
   }
 }
 

@@ -81,19 +81,17 @@ body * {
 }
 
 body::-webkit-scrollbar {
-  width: 7px;
+  width: 4px;
   position: absolute;
 }
 
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 5px grey;
           box-shadow: inset 0 0 5px grey;
-  border-radius: 7px;
 }
 
 body::-webkit-scrollbar-thumb {
   background: #7d62da;
-  border-radius: 7px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
@@ -4566,7 +4564,7 @@ body main .product_in .product_info .right .card_block .ageny_info .actions .btn
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0px 10px;
+  padding: 0px 6px;
 }
 
 body main .product_in .product_info .right .card_block .ageny_info .actions .btn_action img {
@@ -5744,7 +5742,7 @@ body main .stores_in .sidebar .ageny_info .actions .btn_action {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0px 10px;
+  padding: 0px 6px;
 }
 
 body main .stores_in .sidebar .ageny_info .actions .btn_action img {
@@ -6361,7 +6359,7 @@ body main .profile_block .cabinet_profile .right_column .info div span {
 
 body main .profile_block .upload_images .item {
   margin-bottom: 20px;
-  width: 140px;
+  min-width: 165px;
   height: 130px;
 }
 
@@ -7245,6 +7243,422 @@ body main .auth_section form .sign_buttons .btn_foot {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+body main .chat_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+}
+
+body main .chat_section .sidebar_chat {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+body main .chat_section .sidebar_chat::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+
+body main .chat_section .sidebar_chat .messages .unread {
+  background-color: #dddddd !important;
+}
+
+body main .chat_section .sidebar_chat .messages .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+body main .chat_section .sidebar_chat .messages .item:hover {
+  background-color: rgba(238, 238, 238, 0.562);
+}
+
+body main .chat_section .sidebar_chat .messages .item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+body main .chat_section .sidebar_chat .messages .item .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+body main .chat_section .sidebar_chat .messages .item .left .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+body main .chat_section .sidebar_chat .messages .item .left .avatar img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body main .chat_section .sidebar_chat .messages .item .left .content {
+  width: 79%;
+}
+
+body main .chat_section .sidebar_chat .messages .item .left .content span {
+  display: block;
+}
+
+body main .chat_section .sidebar_chat .messages .item .left .content .name {
+  font-size: 16px;
+}
+
+body main .chat_section .sidebar_chat .messages .item .left .content .short_mess {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+body main .chat_section .sidebar_chat .messages .item .product_img {
+  width: 55px;
+  height: 55px;
+  border-radius: 7px;
+}
+
+body main .chat_section .chat_block {
+  padding: 20px;
+  width: 66%;
+  height: 500px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  border-radius: 7px;
+}
+
+body main .chat_section .chat_block .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #434343;
+  margin-bottom: 15px;
+}
+
+body main .chat_section .chat_block .head .service_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .chat_section .chat_block .head .service_info .info span {
+  display: block;
+  font-size: 16px;
+  font-family: MavenPro-Bold;
+}
+
+body main .chat_section .chat_block .head .service_info .avatar {
+  width: 55px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  margin-right: 12px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+body main .chat_section .chat_block .head .service_info .avatar img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body main .chat_section .chat_block .head .product_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body main .chat_section .chat_block .head .product_info .img {
+  width: 55px;
+  height: 55px;
+  border-radius: 7px;
+  margin-left: 20px;
+}
+
+body main .chat_section .chat_block .head .product_info .info {
+  text-align: right;
+}
+
+body main .chat_section .chat_block .head .product_info .info .name {
+  display: block;
+  font-size: 16px;
+  font-family: MavenPro-Bold;
+  text-align: right;
+}
+
+body main .chat_section .chat_block .head .product_info .info .price {
+  font-size: 14px;
+  opacity: 0.6;
+  text-align: right;
+}
+
+body main .chat_section .chat_block .center .messages {
+  height: 274px;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body main .chat_section .chat_block .center .messages::-webkit-scrollbar {
+  width: 3px;
+  position: absolute;
+}
+
+body main .chat_section .chat_block .center .messages::-webkit-scrollbar-track {
+  background-color: #efefef;
+  border-radius: 20px;
+}
+
+body main .chat_section .chat_block .center .messages::-webkit-scrollbar-thumb {
+  background: #434343;
+  border-radius: 20px;
+}
+
+body main .chat_section .chat_block .center .messages::-webkit-scrollbar-thumb:hover {
+  background: #434343;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 10px;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .message {
+  position: relative;
+  max-width: 48%;
+  min-width: 200px;
+  border-radius: 8px;
+  margin-top: 30px;
+  padding: 13px 15px;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .message .content img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .message .content * {
+  font-size: 14px;
+  line-height: 20.64px;
+  font-family: MavenPro-Regular;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .left {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  border-radius: 7px;
+  background-color: #eee;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .right {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  border-radius: 7px;
+  background-color: #7d62da;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .right * {
+  color: #fff;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .right .check_read {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 12px;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .right .check_read svg {
+  width: 16px;
+  height: 16px;
+  opacity: 0.5;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .right .check_read .read {
+  opacity: 1 !important;
+}
+
+body main .chat_section .chat_block .center .messages .chat_scroll .right .check_read .read path {
+  fill: #00d600;
+}
+
+body main .chat_section .chat_block .foot {
+  margin-top: 36px;
+}
+
+body main .chat_section .chat_block .foot form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 55px;
+  background-color: #f1f0f9;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+body main .chat_section .chat_block .foot form input {
+  width: 70%;
+  height: 100%;
+}
+
+body main .chat_section .chat_block .foot form .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .chat_section .chat_block .foot form .right .btn_foot {
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f5692c;
+  border-radius: 7px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+body main .chat_section .chat_block .foot form .right .btn_foot img {
+  width: 60%;
+  height: 60%;
+}
+
+body main .chat_section .chat_block .foot form .right .upload_btn {
+  position: relative;
+}
+
+body main .chat_section .chat_block .foot form .right .upload_btn input {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+body main .chat_section .chat_block .no_chat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .chat_section .chat_block .no_chat svg {
+  width: 20%;
+  height: 20%;
+}
+
+body main .chat_section .chat_block .no_chat svg path {
+  fill: #7d62da;
+  opacity: 0.5;
 }
 
 body footer {

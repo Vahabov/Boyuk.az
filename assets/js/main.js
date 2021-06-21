@@ -271,6 +271,11 @@ $(function () {
     $(this).parents(".item").remove();
   }
 
+  //MESSAGESCROLL
+  if ($("#messagesBlock")[0]) {
+    $("#messagesBlock").scrollTop($("#messages")[0].scrollHeight + 2);
+  }
+
   var value = 0;
 
   function reverseImg(elem, val) {

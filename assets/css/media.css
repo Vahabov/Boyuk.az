@@ -601,19 +601,6 @@
     height: auto;
     padding: 15px;
   }
-  body main .with_messages .chat_block .head {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  body main .with_messages .chat_block .head .service_info {
-    width: 100%;
-    margin-bottom: 20px;
-  }
   body main .with_messages .chat_block .head .service_info .avatar {
     width: 45px;
     height: 45px;
@@ -645,6 +632,21 @@
   }
   body main .with_chats .chat_block {
     display: none;
+  }
+  body main .blocked_users_list_block {
+    padding: 15px;
+  }
+  body main .blocked_users_list_block .title {
+    font-size: 22px;
+  }
+  body main .blocked_users_list_block .lists .list_blocked {
+    width: 100%;
+  }
+  body main .blocked_users_list_block .lists .list_blocked:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 0px;
+  }
+  body main .blocked_users_list_block .lists .list_blocked:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 

@@ -7264,7 +7264,7 @@ body main .chat_section .sidebar_chat {
   overflow-y: scroll;
   overflow-x: hidden;
   width: 400px;
-  height: 500px;
+  height: 597px;
   background-color: #fff;
   padding: 10px;
   border-radius: 7px;
@@ -7360,7 +7360,7 @@ body main .chat_section .sidebar_chat .messages .item .product_img {
 body main .chat_section .chat_block {
   padding: 20px;
   width: 66%;
-  height: 500px;
+  min-height: 500px;
   background-color: #fff;
   overflow: hidden;
   position: relative;
@@ -7377,9 +7377,11 @@ body main .chat_section .chat_block .head {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 22px;
-  border-bottom: 1px solid #434343;
-  margin-bottom: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 body main .chat_section .chat_block .head .service_info {
@@ -7422,6 +7424,27 @@ body main .chat_section .chat_block .head .service_info .avatar img {
      object-fit: cover;
 }
 
+body main .chat_section .chat_block .head .btn_block {
+  background-color: #f5692c;
+  width: 33px;
+  height: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 4px;
+}
+
+body main .chat_section .chat_block .head .btn_block img {
+  width: 50%;
+  height: 50%;
+}
+
 body main .chat_section .chat_block .head .product_info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7429,21 +7452,17 @@ body main .chat_section .chat_block .head .product_info {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  width: 100%;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  margin-top: 20px;
 }
 
 body main .chat_section .chat_block .head .product_info .img {
   width: 55px;
   height: 55px;
   border-radius: 7px;
-  margin-left: 20px;
-}
-
-body main .chat_section .chat_block .head .product_info .info {
-  text-align: right;
+  margin-right: 12px;
 }
 
 body main .chat_section .chat_block .head .product_info .info .name {
@@ -7578,7 +7597,7 @@ body main .chat_section .chat_block .foot form {
   height: 55px;
   background-color: #f1f0f9;
   border-radius: 7px;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 body main .chat_section .chat_block .foot form input {
@@ -7659,6 +7678,146 @@ body main .chat_section .chat_block .no_chat svg {
 body main .chat_section .chat_block .no_chat svg path {
   fill: #7d62da;
   opacity: 0.5;
+}
+
+body main .blocked_user_block {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+body main .blocked_user_block .label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+body main .blocked_user_block .description {
+  font-size: 14px;
+}
+
+body main .blocked_user_block .unlock_btn {
+  background-color: #f5692c;
+  border-radius: 7px;
+  padding: 0px 20px;
+  height: 45px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+body main .blocked_user_block .unlock_btn img {
+  margin-right: 15px;
+}
+
+body main .blocked_users_list_block {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+body main .blocked_users_list_block .title {
+  font-size: 28px;
+  font-family: MavenPro-Medium;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+body main .blocked_users_list_block .lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .blocked_users_list_block .lists .list_blocked {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+  position: relative;
+}
+
+body main .blocked_users_list_block .lists .list_blocked:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
+body main .blocked_users_list_block .lists .list_blocked .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+}
+
+body main .blocked_users_list_block .lists .list_blocked .left .avatar {
+  margin-right: 15px;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #eee;
+}
+
+body main .blocked_users_list_block .lists .list_blocked .left .avatar img {
+  width: 50%;
+  height: 50%;
+}
+
+body main .blocked_users_list_block .lists .list_blocked .left .content {
+  max-width: 70%;
+}
+
+body main .blocked_users_list_block .lists .list_blocked .left .content span {
+  display: block;
+  word-break: break-all;
+}
+
+body main .blocked_users_list_block .lists .list_blocked .unlock_btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+body main .blocked_users_list_block .lists .list_blocked .unlock_btn svg {
+  width: 100%;
+  height: 100%;
+}
+
+body main .blocked_users_list_block .lists .list_blocked .unlock_btn svg path {
+  fill: #f5692c;
 }
 
 body footer {

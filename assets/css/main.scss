@@ -5009,7 +5009,7 @@ body {
         overflow-y: scroll;
         overflow-x: hidden;
         width: 400px;
-        height: 500px;
+        height: 597px;
         background-color: #fff;
         padding: 10px;
         border-radius: $radius7;
@@ -5069,16 +5069,17 @@ body {
       .chat_block {
         padding: 20px;
         width: 66%;
-        height: 500px;
+        min-height: 500px;
         background-color: #fff;
         overflow: hidden;
         position: relative;
         border-radius: $radius7;
         .head {
           @include flex-between(flex);
-          padding-bottom: 22px;
-          border-bottom: 1px solid $siteColor;
-          margin-bottom: 15px;
+          padding-bottom: 20px;
+          border-bottom: 1px solid #eee;
+          margin-bottom: 20px;
+          flex-wrap: wrap;
           .service_info {
             display: flex;
             align-items: center;
@@ -5102,18 +5103,31 @@ body {
               }
             }
           }
+          .btn_block {
+            background-color: $siteColor2;
+            width: 33px;
+            height: 33px;
+            @include flex-center(flex);
+            border-radius: 4px;
+            img {
+              width: 50%;
+              height: 50%;
+            }
+          }
           .product_info {
             display: flex;
             align-items: center;
-            flex-direction: row-reverse;
+            width: 100%;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            margin-top: 20px;
             .img {
               width: 55px;
               height: 55px;
               border-radius: $radius7;
-              margin-left: 20px;
+              margin-right: 12px;
             }
             .info {
-              text-align: right;
               .name {
                 display: block;
                 font-size: 16px;
@@ -5162,7 +5176,7 @@ body {
                 margin-top: 30px;
                 padding: 13px 15px;
                 .content {
-                  img{
+                  img {
                     width: 100%;
                     border-radius: $radius7;
                   }
@@ -5212,15 +5226,15 @@ body {
             height: 55px;
             background-color: #f1f0f9;
             border-radius: $radius7;
-            padding: 20px;
+            padding: 0px 20px;
             input {
               width: 70%;
               height: 100%;
             }
-            .right{
+            .right {
               display: flex;
               align-items: center;
-              .btn_foot{
+              .btn_foot {
                 width: 35px;
                 height: 35px;
                 @include flex-center(flex);
@@ -5228,14 +5242,14 @@ body {
                 border-radius: $radius7;
                 margin-left: 12px;
                 cursor: pointer;
-                img{
+                img {
                   width: 60%;
                   height: 60%;
                 }
               }
-              .upload_btn{
+              .upload_btn {
                 position: relative;
-                input{
+                input {
                   cursor: pointer;
                   opacity: 0;
                   position: absolute;
@@ -5248,7 +5262,7 @@ body {
             }
           }
         }
-        .no_chat{
+        .no_chat {
           position: absolute;
           top: 50%;
           left: 50%;
@@ -5256,12 +5270,99 @@ body {
           width: 100%;
           height: 100%;
           @include flex-center(flex);
-          svg{
+          svg {
             width: 20%;
             height: 20%;
-            path{
+            path {
               fill: $siteColor3;
               opacity: 0.5;
+            }
+          }
+        }
+      }
+    }
+    .blocked_user_block {
+      background-color: #fff;
+      border-radius: $radius7;
+      padding: 20px;
+      .label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .description {
+        font-size: 14px;
+      }
+      .unlock_btn {
+        background-color: $siteColor2;
+        border-radius: $radius7;
+        padding: 0px 20px;
+        height: 45px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        img {
+          margin-right: 15px;
+        }
+      }
+    }
+    .blocked_users_list_block {
+      background-color: #fff;
+      border-radius: $radius7;
+      padding: 20px;
+      .title {
+        font-size: 28px;
+        font-family: $medium;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+      }
+      .lists {
+        @include flex-between(flex);
+        align-items: flex-start;
+        flex-wrap: wrap;
+        .list_blocked {
+          @include flex-between(flex);
+          width: 30%;
+          position: relative;
+          &:not(:nth-last-child(-n + 3)){
+            margin-bottom: 30px;
+          }
+          .left {
+            display: flex;
+            align-items: center;
+            width: 95%;
+            .avatar {
+              margin-right: 15px;
+              border-radius: 100%;
+              width: 35px;
+              height: 35px;
+              @include flex-center(flex);
+              background-color: #eee;
+              img {
+                width: 50%;
+                height: 50%;
+              }
+            }
+            .content {
+              max-width: 70%;
+              span {
+                display: block;
+                word-break: break-all;
+              }
+            }
+          }
+          .unlock_btn{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            svg{
+              width: 100%;
+              height: 100%;
+              path{
+                fill: $siteColor2
+              }
             }
           }
         }

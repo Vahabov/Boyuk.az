@@ -163,10 +163,10 @@ body {
     -moz-appearance: none; /* Firefox */
     -webkit-appearance: none; /* Safari and Chrome */
     background: transparent;
-    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-image: url(../images/icons/down_arrow.svg);
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 5px;
+    background-position-x: 90%;
+    background-position-y: 45%;
   }
   a {
     text-decoration: none;
@@ -7871,4 +7871,24 @@ body {
       transform: translateY(0.0004px) scale(1, 1);
     }
   }
+}
+
+////////after
+
+.country_select {
+  background-color: #fff;
+  height: 52px;
+  min-width: 240px;
+  border-radius: $radius7;
+  padding: 0px 20px;
+  @include flex-between(flex);
+}
+.product_head_select {
+  height: 40px;
+  min-width: 210px;
+  padding: 0px 20px;
+  border-radius: $radius7;
+  background-color: $siteColor;
+  color: #fff;
+  @include flex-center(flex);
 }

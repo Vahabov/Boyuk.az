@@ -172,10 +172,10 @@ body select {
   -webkit-appearance: none;
   /* Safari and Chrome */
   background: transparent;
-  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-image: url(../images/icons/down_arrow.svg);
   background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 5px;
+  background-position-x: 90%;
+  background-position-y: 45%;
 }
 
 body select:focus {
@@ -11003,5 +11003,40 @@ body .share_reaction:hover .gmail {
     -webkit-transform: translateY(0.0004px) scale(1, 1);
             transform: translateY(0.0004px) scale(1, 1);
   }
+}
+
+.country_select {
+  background-color: #fff;
+  height: 52px;
+  min-width: 240px;
+  border-radius: 7px;
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product_head_select {
+  height: 40px;
+  min-width: 210px;
+  padding: 0px 20px;
+  border-radius: 7px;
+  background-color: #434343;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */

@@ -71,9 +71,14 @@
               <button
                 type="button"
                 class="link_cabinet modal_btn"
-                data-id="login_modal"̰
+                data-id="login_modal"
+                ̰
               >
-                <img onload="SVGInject(this)" src="./assets/images/icons/profile-user.svg" alt="#" />
+                <img
+                  onload="SVGInject(this)"
+                  src="./assets/images/icons/profile-user.svg"
+                  alt="#"
+                />
                 <span>Giriş</span>
               </button>
             </div>
@@ -202,88 +207,12 @@
               />
               <input type="text" placeholder="Məsələn iPhone X" />
             </div>
-            <div class="select_box">
-              <button type="button" class="btn_select_box">
-                <span class="now_text">Bütün Azərbaycan</span>
-                <img
-                  class="arrow"
-                  onload="SVGInject(this)"
-                  src="./assets/images/icons/down_arrow.svg"
-                  alt="#"
-                />
-              </button>
-              <div class="select_box_in">
-                <button type="button" class="select">
-                  <a href="#" class="text">Bütün Azərbaycan</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Baki</a>
-                </button>
-                <button type="button" class="select">
-                  <a href="#" class="text">Sumqayit</a>
-                </button>
-              </div>
-            </div>
+            <select class="country_select">
+              <option value="aze" hidden>Azerbaycan</option>
+              <option value="aze">Baki</option>
+              <option value="aze">Quba</option>
+              <option value="aze">Qusar</option>
+            </select>
             <button type="submit" class="btn_search anime_hover">
               <span>AXTAR</span>
               <img src="/assets/images/icons/loupe.svg" alt="#" />
@@ -1183,27 +1112,12 @@
             <a href="./products.html" class="count">1123 elan</a>
           </div>
           <div class="right">
-            <div class="select_box">
-              <button type="button" class="btn_select_box">
-                <span class="now_text">Ucuzdan bahaya</span>
-                <img
-                  class="arrow"
-                  src="./assets/images/icons/down_arrow.svg"
-                  alt="#"
-                />
-              </button>
-              <div class="select_box_in">
-                <button type="button" class="select">
-                  <span class="text">Bahadan ucuza</span>
-                </button>
-                <button type="button" class="select">
-                  <span class="text">empty</span>
-                </button>
-                <button type="button" class="select">
-                  <span class="text">empty</span>
-                </button>
-              </div>
-            </div>
+            <select class="product_head_select">
+              <option value="" hidden>Ucuzdan bahaya</option>
+              <option value="">empty</option>
+              <option value="">empty</option>
+              <option value="">empty</option>
+            </select>
           </div>
         </div>
         <div class="product_block">
@@ -2874,7 +2788,11 @@
               ></textarea>
             </div>
             <div class="foot">
-              <input type="submit" value="Göndər" class="btn_submit anime_hover" />
+              <input
+                type="submit"
+                value="Göndər"
+                class="btn_submit anime_hover"
+              />
             </div>
           </form>
         </div>

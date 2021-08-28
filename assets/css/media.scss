@@ -732,7 +732,7 @@ $extraBold: MavenPro-ExtraBold;
       }
       .blocked_users_list_block {
         padding: 15px;
-        .title{
+        .title {
           font-size: 22px;
         }
         .lists {
@@ -748,6 +748,10 @@ $extraBold: MavenPro-ExtraBold;
         }
       }
     }
+  }
+  ////////after
+  .country_select {
+    display: none;
   }
 }
 

@@ -648,6 +648,9 @@
   body main .blocked_users_list_block .lists .list_blocked:not(:last-child) {
     margin-bottom: 30px;
   }
+  .country_select {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
